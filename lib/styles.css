@@ -1,0 +1,55 @@
+h1 {
+
+	text-align:center;
+	color:navy;
+}
+
+
+.tableContainer{
+	width:100%;
+	text-align: center;
+}
+
+
+.tableColumn,.tableColumn a,.tableColumn input{
+	display:table-cell;
+	width:50%;
+	border:1px solid gray;
+	padding:10px;
+}
+
+
+
+input ,textarea{
+	padding:10px;
+	margin:10px;
+	min-height:50px;
+}
+
+.tableRow{
+	background-color:#ccc;
+	display:table-row;
+	width:100%;
+	text-align:left;
+}
+
+.submit {
+	width:100%;
+	background-color: red;
+}
+.table{
+	margin-left:auto; 
+    margin-right:auto;
+	width:80%;
+	text-align: center;
+	display: table;
+	align-content: center;
+	border:1px solid gray;
+}
+
+.tableHead{
+	background:navy	;
+	color:yellow;
+	display:table-cell;
+	font-weight: 700;
+}
